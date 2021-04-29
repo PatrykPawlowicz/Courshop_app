@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="CG_Blue">#007EA7</color>
+    <color name="Green_Sheen">#83BCA9</color>
+    <color name="Beau_Blue">#BFD7EA</color>
+    <color name="Cardinal">#C52233</color>
+    <color name="Cadet_blue">#429DA8</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

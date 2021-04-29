@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "755502478862",
+    "project_id": "courshop-app",
+    "storage_bucket": "courshop-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755502478862:android:ec347bdb38c1a399846e5f",
+        "android_client_info": {
+          "package_name": "com.example.courshop_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "755502478862-bga4sfphlftj8egajolqvd6aukjk4mhk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjWu1-0m5KrlXkSAQQRXFKvn1d2Ezs_NE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "755502478862-bga4sfphlftj8egajolqvd6aukjk4mhk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_roofing_black_24dp"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_category"
+            android:icon="@drawable/ic_category_black_24dp"
+            android:title="@string/Categories" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="@string/profile" />
+
+        <item
+            android:id="@+id/nav_myCourses"
+            android:icon="@drawable/ic_school_black_24dp"
+            android:title="@string/my_courses" />
+
+        <item
+            android:id="@+id/nav_myOrders"
+            android:icon="@drawable/ic_shopping_cart_black_24dp"
+            android:title="@string/my_orders" />
+
+        <item
+            android:id="@+id/nav_newCourses"
+            android:icon="@drawable/ic_loop_black_24dp"
+            android:title="@string/new_courses" />
+
+    </group>
+</menu>

@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Courshop_app</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="email_hint">Enter email here</string>
+    <string name="password_hint">Enter password here</string>
+    <string name="todo">Logo Courshopp</string>
+    <string name="sign_in">Log In</string>
+    <string name="email">Email</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="already_have_an_account">Already Have An Account?</string>
+    <string name="don_t_have_an_account_yet">Don\'t have an account yet?</string>
+    <string name="sing_up">Sing Up</string>
+    <string name="email_reg_hint">Enter your email here</string>
+    <string name="sing_in">Sing In</string>
+    <string name="password_reg_hint">Enter password here</string>
+    <string name="name_reg_hint">Enter your name here</string>
+    <string name="menu_register">Register</string>
+    <string name="menu_login">Log In</string>
+    <string name="Categories">Categories</string>
+    <string name="hi">Hi!</string>
+    <string name="courshop_logo">Courshop logo</string>
+    <string name="if_you_have_an_account">If you have an account</string>
+    <string name="or">OR</string>
+    <string name="sign_in_home">Sign In</string>
+    <string name="home_short_description">If you want to create new account</string>
+    <string name="log_in">Log In</string>
+    <string name="short_description_home">Courshop offers various types of courses online or in classroom form. With Courseshop you can find the perfect course for you and gain valuable and marketable knowledge and skills at great prices. Select one of the two options below to browse our offer.</string>
+    <string name="profile">Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="new_courses">New Courses</string>
+    <string name="my_orders">My orders</string>
+    <string name="my_courses">My courses</string>
+    <string name="home">Home</string>
+</resources>
