@@ -49,4 +49,5 @@
     <string name="popular_categories">Popular Categories</string>
     <string name="popular_title">Popular Title</string>
     <string name="description_popular">Description Popular</string>
+    <string name="category_name">Category Name</string>
 </resources>

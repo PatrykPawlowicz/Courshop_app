@@ -68,12 +68,7 @@
             android:id="@+id/popular_courses"
             />
 
-        <androidx.recyclerview.widget.RecyclerView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:id="@+id/pupular_categories"
-            />
+
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -109,13 +104,14 @@
 
 
         </LinearLayout>
-
         <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
-            android:id="@+id/special4U"
+            android:id="@+id/categories"
             />
+
+
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -151,6 +147,13 @@
 
 
         </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:id="@+id/special4U"
+            />
 
 
     </LinearLayout>
