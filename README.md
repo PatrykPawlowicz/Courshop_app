@@ -18,7 +18,7 @@ An android application for viewing online courses, buying and learning from purc
 
 ### Category View
 <img src="categoryView.png" height="400px" width="200px">
-<img src="categoryView2" height="400px" width="200px">
+<img src="categoryView2.png" height="400px" width="200px">
 </br>
 
 ### Detailed Course View
@@ -31,13 +31,13 @@ An android application for viewing online courses, buying and learning from purc
 
 ### Login & Register View
 <img src="loginView.png" height="400px" width="200px">
-<img src="registerView.png" height="400px" width="200px">)
+<img src="registerView.png" height="400px" width="200px">
 </br>
 
 ### Firebase 
-<img src="Firebase1.png" height="300px" width="500px">
+<img src="Firebase1.PNG" height="300px" width="500px">
 </br>
-<img src="Firebase2.png" height="300px" width="500px">
+<img src="Firebase2.PNG" height="300px" width="500px">
 </br>
-<img src="Firebase3.png" height="300px" width="500px">
+<img src="Firebase3.PNG" height="300px" width="500px">
 </br>
