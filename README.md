@@ -35,9 +35,9 @@ An android application for viewing online courses, buying and learning from purc
 </br>
 
 ### Firebase 
-<img src="Firebase1.PNG" height="300px" width="500px">
+<img src="Firebase1.PNG" height="300px" width="600px">
 </br>
-<img src="Firebase2.PNG" height="300px" width="500px">
+<img src="Firebase2.PNG" height="300px" width="600px">
 </br>
-<img src="Firebase3.PNG" height="300px" width="500px">
+<img src="Firebase3.PNG" height="300px" width="600px">
 </br>
