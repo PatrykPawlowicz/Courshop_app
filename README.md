@@ -13,34 +13,31 @@ An android application for viewing online courses, buying and learning from purc
 ## Screenshots
 ### Home View
 <img src="home.png" height="400px" width="200px">
-</br>
 <img src="home2.png" height="400px" width="200px">
 </br>
 
 ### Category View
-![category_view_1](categoryView.png)
-</br>
-![category_view_2](categoryView2.png)
+<img src="categoryView.png" height="400px" width="200px">
+<img src="categoryView2" height="400px" width="200px">
 </br>
 
 ### Detailed Course View
-![detailed_view_1](DetailedView.png)
+<img src="DetailedView.png" height="400px" width="200px">
 </br>
 
 ### My orders view
-![orders_view_1](myOrdersView.png)
+<img src="myOrdersView.png" height="400px" width="200px">
 </br>
 
 ### Login & Register View
-![login_view](loginView.png)
-</br>
-![register_view](registerView.png)
+<img src="loginView.png" height="400px" width="200px">
+<img src="registerView.png" height="400px" width="200px">)
 </br>
 
 ### Firebase 
-![firebase_1](Firebase1.png)
+<img src="Firebase1.png" height="300px" width="500px">
 </br>
-![firebase_2](Firebase2.png)
+<img src="Firebase2.png" height="300px" width="500px">
 </br>
-![firebase_3](Firebase3.png)
+<img src="Firebase3.png" height="300px" width="500px">
 </br>
