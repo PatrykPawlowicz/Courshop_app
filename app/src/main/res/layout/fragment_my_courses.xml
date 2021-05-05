@@ -16,29 +16,24 @@ android:layout_height="match_parent"
             android:layout_width="400dp"
             android:layout_height="300dp"
             android:layout_marginTop="50dp"
-            android:layout_marginBottom="529dp"
             android:src="@drawable/sorry_new_obj"
-            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="46dp"
-            android:layout_marginBottom="414dp"
+            android:fontFamily="@font/bubbler_one"
             android:text="@string/you_haven_t_got_any_courses"
             android:textAlignment="center"
-            app:layout_constraintBottom_toBottomOf="parent"
+            android:textColor="@color/CG_Blue"
+            android:textSize="22dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/new_courses_img"
-            android:textSize="22sp"
-            android:fontFamily="@font/bubbler_one"
-            android:textColor="@color/CG_Blue"/>
+            app:layout_constraintTop_toBottomOf="@+id/new_courses_img" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

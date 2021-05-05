@@ -72,6 +72,12 @@
                     android:layout_marginLeft="10sp"
                     android:layout_marginRight="5sp"/>
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/per_month"
+                    android:fontFamily="@font/bubbler_one"/>
+
             </LinearLayout>
 
             <LinearLayout

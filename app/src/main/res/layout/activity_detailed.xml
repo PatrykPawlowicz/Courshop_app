@@ -30,14 +30,45 @@
         android:id="@+id/price_det"
         android:layout_width="172dp"
         android:layout_height="39dp"
-        android:layout_marginTop="80dp"
-        android:layout_marginEnd="108dp"
-        android:text="100 zł"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="76dp"
+        android:text="..."
         android:textColor="@color/CG_Blue"
         android:textSize="30sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/detail_img" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="53dp"
+        android:fontFamily="@font/bubbler_one"
+        android:textColor="@color/CG_Blue"
+        android:text="@string/per_month"
+        app:layout_constraintBottom_toTopOf="@+id/det_about"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/price_det" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/bubbler_one"
+        android:gravity="center"
+        android:text=" Select the number of months to access the course ! "
+        android:textColor="@color/Green_Sheen"
+        android:textSize="18dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/relativeLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/det_description"
+        app:layout_constraintVertical_bias="1.0" />
 
     <RatingBar
         android:id="@+id/det_ratingBar"
@@ -70,7 +101,7 @@
         android:id="@+id/det_about"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="96dp"
         android:fontFamily="@font/bubbler_one"
         android:gravity="center"
         android:text="About Course"
@@ -78,7 +109,7 @@
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintTop_toBottomOf="@+id/det_ratingBar"
-        tools:layout_editor_absoluteX="0dp" />
+        tools:layout_editor_absoluteX="100dp" />
 
     <TextView
         android:id="@+id/det_description"
@@ -92,12 +123,13 @@
         app:layout_constraintTop_toBottomOf="@+id/det_about" />
 
     <RelativeLayout
+        android:id="@+id/relativeLayout"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:background="@color/CG_Blue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" >
+        app:layout_constraintStart_toStartOf="parent">
 
         <ImageView
             android:id="@+id/det_add"

@@ -54,4 +54,6 @@
     <string name="you_have_not_purchased_anything_yet">You have not purchased anything yet</string>
     <string name="you_haven_t_got_any_courses">You haven\'t got any courses</string>
     <string name="logout">Logout</string>
+    <string name="total_price_300z">Total Price: ... </string>
+    <string name="per_month">/per month</string>
 </resources>
