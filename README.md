@@ -8,7 +8,7 @@ An android application for viewing online courses, buying and learning from purc
 <ol>
 <li> Course data is stored in Firebase and includes course name, description, rating, price and category. 
 <li> Viewing courses is available only after creating a user account or logging into one's own account. 
-<li> After selecting the appropriate course you can go to the detailed view of the account, where you can add the number of months for which you buy access to the course.
+<li> After selecting the appropriate course you can go to the detailed view of the course, where you can add the number of months for which you buy access to the course.
 <li> In the 'My Orders' tab you will see the data downloaded from Firebase with our orders and the total price for all purchases.
 </ol>
 
