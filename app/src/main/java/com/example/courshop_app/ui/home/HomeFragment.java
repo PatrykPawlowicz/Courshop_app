@@ -4,6 +4,8 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ProgressBar;
+import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -33,6 +35,9 @@ import java.util.List;
 
 public class HomeFragment extends Fragment {
 
+    ScrollView scrollView;
+    ProgressBar progressBar;
+
     RecyclerView popularCourses, coursesCategories, recommended;
     FirebaseFirestore db;
 
@@ -57,6 +62,12 @@ public class HomeFragment extends Fragment {
         popularCourses = root.findViewById(R.id.popular_courses);
         coursesCategories = root.findViewById(R.id.categories);
         recommended = root.findViewById(R.id.special4U);
+        scrollView = root.findViewById(R.id.scroll_home);
+        progressBar = root.findViewById(R.id.progress_bar);
+
+        progressBar.setVisibility(View.VISIBLE);
+        scrollView.setVisibility(View.GONE);
+
 
         //Popular Courses
         popularCourses.setLayoutManager(new LinearLayoutManager(getActivity(),RecyclerView.HORIZONTAL,false));
@@ -74,6 +85,9 @@ public class HomeFragment extends Fragment {
                                 PopularModel popularModel = document.toObject(PopularModel.class);
                                 popularModelList.add(popularModel);
                                 popularAdapters.notifyDataSetChanged();
+
+                                progressBar.setVisibility(View.GONE);
+                                scrollView.setVisibility(View.VISIBLE);
                             }
                         } else {
                             Toast.makeText(getActivity(), "Error"+task.getException(),Toast.LENGTH_SHORT).show();

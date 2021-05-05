@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="7dp"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/obj_img"
+            android:scaleType="centerInside"
+            android:id="@+id/viewAll_img"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nameAll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:fontFamily="@font/bubbler_one"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="Name"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/descriptionAll"
+                android:fontFamily="@font/bubbler_one"
+                android:text="Description"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:singleLine="false"/>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <TextView
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:fontFamily="@font/bubbler_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price " />
+
+                <TextView
+                    android:id="@+id/priceAll"
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bubbler_one"
+                    android:text="20"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginRight="5sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <RatingBar
+                    android:id="@+id/ratingAll"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:numStars="5"
+                    android:rating="5" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ratingAll_num"
+                    android:text="5.0"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="3dp"/>
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:layout_gravity="end"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/ic_forward_black_24dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

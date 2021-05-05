@@ -1,6 +1,7 @@
 package com.example.courshop_app.adapters;
 
 import android.content.Context;
+import android.content.Intent;
 import android.provider.Settings;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -14,6 +15,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import com.example.courshop_app.R;
+import com.example.courshop_app.activities.ViewAllActivity;
 import com.example.courshop_app.models.PopularModel;
 
 import java.util.List;
@@ -42,8 +44,18 @@ public class PopularAdapters extends RecyclerView.Adapter<PopularAdapters.ViewHo
         holder.description.setText(popularModelList.get(position).getDescription());
         holder.discount.setText(popularModelList.get(position).getDiscount());
         holder.rating.setRating(popularModelList.get(position).getRating());
-    }
 
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(context, ViewAllActivity.class);
+                intent.putExtra("type", popularModelList.get(position).getType());
+                context.startActivity(intent);
+
+            }
+        });
+
+    }
     @Override
     public int getItemCount() {
         return popularModelList.size();
