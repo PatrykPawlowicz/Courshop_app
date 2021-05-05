@@ -1,6 +1,17 @@
 # Courshop_app
-An android application for viewing online courses, buying and learning from purchased courses.
+
+## Description 
+An android application for viewing online courses, buying and learning from purchased courses. 
 </br>
+
+## How it works
+<ol>
+<li> Course data is stored in Firebase and includes course name, description, rating, price and category. 
+<li> Viewing courses is available only after creating a user account or logging into one's own account. 
+<li> After selecting the appropriate course you can go to the detailed view of the account, where you can add the number of months for which you buy access to the course.
+<li> In the My orders tab you will see the data downloaded from Firebase with our orders and the total price for all purchases.
+</ol>
+
 
 ## Technology
 <ul>
@@ -21,11 +32,11 @@ An android application for viewing online courses, buying and learning from purc
 <img src="categoryView2.png" height="400px" width="200px">
 </br>
 
-### Detailed Course View
+### Detail Course View
 <img src="DetailedView.png" height="400px" width="200px">
 </br>
 
-### My orders view
+### Orders view
 <img src="myOrdersView.png" height="400px" width="200px">
 </br>
 
@@ -41,3 +52,10 @@ An android application for viewing online courses, buying and learning from purc
 </br>
 <img src="Firebase3.PNG" height="300px" width="600px">
 </br>
+
+## Under development
+
+<ul>
+  <li>New Courses View  -  with the newest courses</li>
+  <li>Profile View - with profile image and ability to change our profile data (name, password)</li>
+</ul>
