@@ -12,7 +12,7 @@ An android application for viewing online courses, buying and learning from purc
 
 ## Screenshots
 ### Home View
-<img src="home.png" height="400px" width="250px">
+<img src="home.png" height="400px" width="200px">
 </br>
 ![home_view_2](home2.png)
 </br>
