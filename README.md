@@ -12,6 +12,12 @@ An android application for viewing online courses, buying and learning from purc
 <li> In the 'My Orders' tab you will see the data downloaded from Firebase with our orders and the total price for all purchases.
 </ol>
 
+## Authors
+<ul>
+  <li>Patryk Pawłowicz</li>
+  <li>Paweł Szczodrowski</li>
+</ul>
+
 
 ## Technology
 <ul>
